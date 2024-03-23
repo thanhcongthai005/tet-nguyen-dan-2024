@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Đếm ngược đến Tết</title>
+  <title>THI THPT QUỐC GIA</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -20,16 +20,18 @@
 </head>
 <body>
 
-  <audio  autoplay muted >
-    <source src="divenha.mp3" type="audio/mp3">
+  <audio  autoplay muted controls>
+    <source src="nhac.mp3" type="audio/mp3">
   </audio>
 
-<h1>Tết Nguyên Đán 2024</h1>
+<h1>Thi THPT 2024</h1>
+<h1>Ngày thi: 27/06/2024 (Chính thức)</h1>
+<h1>Thời gian còn lại (25/6/2024)</h1>
 <div id="countdown"></div>
 
 <script>
   // Ngày Tết (định dạng: yyyy-mm-dd)
-  const tetDate = new Date('2024-02-10T00:00:00').getTime();
+  const tetDate = new Date('2024-06-25T00:00:00').getTime();
 
   // Cập nhật đồng hồ đếm ngược mỗi giây
   const countdown = setInterval(function() {
@@ -46,7 +48,7 @@
     // Nếu đã đến Tết, dừng đồng hồ đếm ngược
     if (distance < 0) {
       clearInterval(countdown);
-      document.getElementById('countdown').innerHTML = 'Chúc mừng năm mới!';
+      document.getElementById('countdown').innerHTML = 'Đi thi Thành ơi! làm tốt nha Thành';
     }
   }, 1000);
 </script>
